@@ -1,0 +1,126 @@
+.bg-container {
+  text-align: center;
+  padding-top: 40px;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fff, #cffcf1);
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: linear-gradient(to right, #fff, #cffcf1);
+  }
+}
+.heading {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: 'roboto';
+  color: #1e293b;
+}
+.digital-timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .digital-timer-container {
+    flex-direction: row;
+  }
+}
+.timer-bg-container {
+  width: 400px;
+  height: 350px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timer-container {
+  width: 130px;
+  height: 130px;
+  background-color: #fff;
+  border-radius: 70px;
+}
+.timer {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #00d9f5;
+  margin: 35px 0px 0px 0px;
+}
+.timer-status {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #0f172a;
+  margin: 0px;
+}
+.set-time-container {
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.start-reset-container {
+  display: flex;
+}
+.start-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.set-time-icons {
+  width: 35px;
+  height: 35px;
+  margin-right: 6px;
+}
+.start-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.set-time-paragraph {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #0f172a;
+}
+.time-limit-paragraph {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'roboto';
+  color: #0f172a;
+  margin: 0px;
+}
+.setting-time-display-container {
+  display: flex;
+}
+.increase-btn {
+  font-size: 42px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #0f172a;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.set-timer-display {
+  width: 100px;
+  height: 52px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #0f172a;
+  font-family: 'roboto';
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-top: 8px;
+}
